@@ -10,7 +10,7 @@ const agePassenger = prompt('quanti anni ha il passeggero?')
 console.log(parseInt(agePassenger));
 
 //se età minore di 18 prezzo = 0.21 * km -20%
-//se età maggiore di 65 prezzo = 0.21 * km -40%    
+//se età maggiore di 65 prezzo = 0.21 * km -40% 
 //il prezzo finale deve essere in forma umana 
 
 /*if(agePassenger < 18){
@@ -23,12 +23,14 @@ console.log(parseInt(agePassenger));
 
 
 if(agePassenger < 18){
-    console.log(((distance * 0.21 - ((distance * 0.21)* 20 / 100))).toFixed(2));  
+    alert(((distance * 0.21 - ((distance * 0.21)* 20 / 100))).toFixed(2));  
 } else if(agePassenger > 65){
-    console.log(((distance * 0.21 - ((distance * 0.21)* 40 / 100))).toFixed(2)); 
+   alert(((distance * 0.21 - ((distance * 0.21)* 40 / 100))).toFixed(2)); 
 }else{
-    console.log((distance * 0.21).toFixed(2));
+   alert((distance * 0.21).toFixed(2));
 }
+
+
 
 
     
