@@ -17,15 +17,18 @@ zero grafica solo js.
 - chiedere all'utente quanti km vuole percorrere
     - prompt 
     - const/let 
+    - number()
 
 - chiedere l'età passeggero 
     - prompt 
     - const/let 
+    - number()
 
 - se età minore di 18 prezzo = 0.21 * km -20%
     - if 
 
 - se età maggiore di 65 prezzo = 0.21 * km -40%
-    - else
+    - else if
     
 - il prezzo finale deve essere in forma umana 
+    - log
